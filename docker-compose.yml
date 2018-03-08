@@ -8,6 +8,6 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        image: damask/2.0.1
+        image: damask:2.0.1
 
         network_mode: bridge
