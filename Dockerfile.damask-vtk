@@ -1,0 +1,11 @@
+# Dockerfile
+# Düsseldorf Advanced Material Simulation Kit (DAMASK)
+# (c) 2016-18 ICMEaix RWTH Aachen University
+FROM damask
+MAINTAINER Lukas Koschmieder <lukas.koschmieder@rwth-aachen.de>
+
+### VTK
+
+RUN yum install -y epel-release
+RUN yum install -y vtk
+RUN yum install -y vtk-python
