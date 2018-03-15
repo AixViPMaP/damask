@@ -7,7 +7,7 @@ MAINTAINER Lukas Koschmieder <lukas.koschmieder@rwth-aachen.de>
 ### Common Dependencies
 
 RUN yum install -y gcc gcc-c++ gcc-gfortran perl make \
-&& yum install -y python numpy \
+&& yum install -y python numpy scipy \
 && yum install -y bc bzip2 which \
 && yum clean all
 
