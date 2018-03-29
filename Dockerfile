@@ -51,3 +51,5 @@ WORKDIR $DAMASK_DIR
 RUN source ./DAMASK_env.sh \
 && make spectral \
 && make install
+
+COPY ./env.sh /env.sh
